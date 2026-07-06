@@ -1,0 +1,111 @@
+{
+  "summary": [
+    {
+      "name": "mobile",
+      "width": 375,
+      "height": 812,
+      "beforeInteraction": {
+        "scrollWidth": 375,
+        "innerWidth": 375,
+        "noHorizontalOverflow": true,
+        "styles": 0,
+        "remoteImages": 0,
+        "brokenImages": [],
+        "menuDisplay": "grid",
+        "navDisplay": "none",
+        "firstFaqExpanded": "true"
+      },
+      "interaction": {
+        "menuOpen": true,
+        "menuExpanded": "true",
+        "faqStates": [
+          "false",
+          "true"
+        ]
+      },
+      "errors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ],
+      "screenshot": "C:/dev/wanjohi-plumbers/assets/verification/mobile.png"
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1024,
+      "beforeInteraction": {
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "noHorizontalOverflow": true,
+        "styles": 0,
+        "remoteImages": 0,
+        "brokenImages": [],
+        "menuDisplay": "grid",
+        "navDisplay": "none",
+        "firstFaqExpanded": "true"
+      },
+      "interaction": null,
+      "errors": [],
+      "screenshot": "C:/dev/wanjohi-plumbers/assets/verification/tablet.png"
+    },
+    {
+      "name": "laptop",
+      "width": 1366,
+      "height": 768,
+      "beforeInteraction": {
+        "scrollWidth": 1351,
+        "innerWidth": 1366,
+        "noHorizontalOverflow": true,
+        "styles": 0,
+        "remoteImages": 0,
+        "brokenImages": [],
+        "menuDisplay": "none",
+        "navDisplay": "flex",
+        "firstFaqExpanded": "true"
+      },
+      "interaction": null,
+      "errors": [],
+      "screenshot": "C:/dev/wanjohi-plumbers/assets/verification/laptop.png"
+    },
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "beforeInteraction": {
+        "scrollWidth": 1425,
+        "innerWidth": 1440,
+        "noHorizontalOverflow": true,
+        "styles": 0,
+        "remoteImages": 0,
+        "brokenImages": [],
+        "menuDisplay": "none",
+        "navDisplay": "flex",
+        "firstFaqExpanded": "true"
+      },
+      "interaction": null,
+      "errors": [],
+      "screenshot": "C:/dev/wanjohi-plumbers/assets/verification/desktop.png"
+    },
+    {
+      "name": "large",
+      "width": 1920,
+      "height": 1080,
+      "beforeInteraction": {
+        "scrollWidth": 1905,
+        "innerWidth": 1920,
+        "noHorizontalOverflow": true,
+        "styles": 0,
+        "remoteImages": 0,
+        "brokenImages": [],
+        "menuDisplay": "none",
+        "navDisplay": "flex",
+        "firstFaqExpanded": "true"
+      },
+      "interaction": null,
+      "errors": [],
+      "screenshot": "C:/dev/wanjohi-plumbers/assets/verification/large.png"
+    }
+  ],
+  "failed": [
+    "mobile: console/log errors Failed to load resource: the server responded with a status of 404 (File not found)"
+  ]
+}

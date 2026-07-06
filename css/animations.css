@@ -1,0 +1,32 @@
+﻿.reveal {
+  opacity: 0;
+  transform: translateY(34px) scale(0.985);
+  filter: blur(8px);
+  transition: opacity 0.85s var(--ease), transform 0.85s var(--ease), filter 0.85s var(--ease);
+}
+.reveal.show { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+.card.reveal.show, .service.reveal.show, .process.reveal.show, .testimonial.reveal.show { transition-delay: 0.04s; }
+
+@keyframes pulse {
+  70% { box-shadow: 0 0 0 13px rgba(0, 194, 255, 0); }
+}
+@keyframes drift {
+  50% { transform: translateY(14px) rotate(-1deg); }
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes glowShift {
+  50% { filter: hue-rotate(16deg) saturate(1.08); }
+}
+.hero::after { animation: spin 30s linear infinite, glowShift 10s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  .reveal { opacity: 1; transform: none; filter: none; }
+}

@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder for bathroom fixture image</title>
+  <desc id="desc">Replace this placeholder with a local photograph of bathroom plumbing or fixtures.</desc>
+  <rect width="800" height="700" fill="#f8fbff"/>
+  <rect x="110" y="120" width="580" height="380" rx="36" fill="white" stroke="rgba(11,37,69,.14)" stroke-width="5"/>
+  <path d="M220 360h360" stroke="#0b2545" stroke-width="34" stroke-linecap="round"/>
+  <path d="M405 220v140" stroke="#2563eb" stroke-width="34" stroke-linecap="round"/>
+  <circle cx="405" cy="390" r="72" fill="rgba(0,194,255,.2)" stroke="#00c2ff" stroke-width="14"/>
+  <text x="90" y="610" fill="#0b2545" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Bathroom fixture placeholder</text>
+</svg>
