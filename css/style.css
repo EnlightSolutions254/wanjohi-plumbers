@@ -408,7 +408,7 @@ h3 { font-size: 1.36rem; letter-spacing: -0.024em; line-height: 1.12; }
   overflow: hidden;
   border-radius: 42px;
   color: white;
-  background: linear-gradient(180deg, rgba(6,26,51,0.02), rgba(6,26,51,0.78)), url("../images/services/service-feature.svg") center/cover;
+  background: linear-gradient(180deg, rgba(6,26,51,0.02), rgba(6,26,51,0.78)), url("../images/services/service-feature.jpg") center/cover;
   box-shadow: var(--shadow), var(--shadow-glow);
 }
 .service-media::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 30% 18%, rgba(0,194,255,0.28), transparent 22rem); }
